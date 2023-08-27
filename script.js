@@ -36,7 +36,14 @@ alert(e % f);
 
 
 //Задание 7
-
+let num = 1;
+num = -4 + 5;
+num = 4- 3;
+num = 0 * 7;
+num = 3/ 3;
+num ++;
+num --;
+alert(num);
 
 
 //Задание 8
@@ -47,24 +54,25 @@ alert(age);
 //Задание 9.0
 const user = {
     name: 'Миша',
-    age: '18',
+    ['age']: '18',
     isAdmin: 'true'
 }
 
 //Задание 9.1
-user.city residence = 'Moscow'
-
-
+user.city= 'Moscow';
 
 
 //Задание 9.2
-age.floor = men;
+user ['height'] = '180';
+
 
 //Задание 9.3
-delete user.city residence;
+delete user.city;
 
 //Задание 9.4
-let info = prompt("Что вы хотите узнать о пользователе?");
+let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(info);
 
 //Задание 10
+let dop = prompt('Как Вас зовут?');
+alert("Привет, " + dop + '!');
